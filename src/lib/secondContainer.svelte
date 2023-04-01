@@ -2,8 +2,7 @@
     import Project from "./project.svelte";
 
     const projects = [
-        {image: "https://i.imgur.com/xAkXmMJ.png", name: "Akebi-GC", description: "Open source Genshin cheat", languages: ["C/C++", "Python"], link: "https://github.com/Akebi-Group/Akebi-GC"},
-        {image: "https://media.discordapp.net/attachments/739170323806683227/970539102309060688/unknown.png", name: "Genshin XYZ", description: "Genshin cheat", languages: ["C/C++"], link: "https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/481738-genshin-xyz.html"}
+        
     ]
 </script>
 

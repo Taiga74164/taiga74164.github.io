@@ -38,6 +38,8 @@
             <nav class="contactsBar" style="display:flex">
                 <div><a href="https://github.com/Taiga74164"><i class="fa-brands fa-github"></i> </a></div>
                 <div><a href="https://discord.com/users/696988079352709140"><i class="fa-brands fa-discord"></i></a></div>
+<!--                <div><a href="https://twitter.com/Taiga74164"><i class="fa-brands fa-twitter"></i></a></div>-->
+<!--                <div><a href="https://ko-fi.com/taiga74164"><i class="fa-solid fa-mug-hot"></i></a></div>-->
                 <!--<div><a href="mailto:"><i class="fa-regular fa-envelope"></i></a></div>-->
             </nav>
         </section>
