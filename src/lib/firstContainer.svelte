@@ -2,17 +2,17 @@
     <div class="firsthalf">
         <nav style="display:flex">
             <div style="flex-grow:0.8"><i class="fa-solid fa-code"> </i>Taiga</div>
-            <div> About</div>
-            <div> Skills</div>
-            <div> Projects</div>
-            <div> Contacts</div>
+<!--            <div> About</div>-->
+<!--            <div> Skills</div>-->
+<!--            <div> Projects</div>-->
+<!--            <div> Contacts</div>-->
 
         </nav>
         <img src="https://www.maavan.com/images/banner%20image.svg" style="float:right; width:300px;height:300px">
 
         <div class="depth"><span>Portfolio</span><br>
 
-            <h1>Taiga</h1>
+            <h1>Joaquin Soriano</h1>
 
             <div class="info"></div>
 
@@ -33,19 +33,17 @@
     <div class="secondhalf" style="display:flex">
         <section class="profile" style="width:40%;font-family: 'Alata', sans-serif;color:#e5e5e5 ;    margin-top:100px;
 ">
-            <img src="https://cdn.discordapp.com/avatars/696988079352709140/336dbfbc940738c007eb4e291b9319ea.webp?size=1024">
-            Taiga
+            <img src="https://avatars.githubusercontent.com/u/67109235?v=4">
+            Joaquin
             <nav class="contactsBar" style="display:flex">
                 <div><a href="https://github.com/Taiga74164"><i class="fa-brands fa-github"></i> </a></div>
+                <div><a href="https://www.linkedin.com/in/joaquin74164/"><i class="fa-brands fa-linkedin"></i> </a></div>
                 <div><a href="https://discord.com/users/696988079352709140"><i class="fa-brands fa-discord"></i></a></div>
-<!--                <div><a href="https://twitter.com/Taiga74164"><i class="fa-brands fa-twitter"></i></a></div>-->
-<!--                <div><a href="https://ko-fi.com/taiga74164"><i class="fa-solid fa-mug-hot"></i></a></div>-->
-                <!--<div><a href="mailto:"><i class="fa-regular fa-envelope"></i></a></div>-->
             </nav>
         </section>
         <section class="about" style="width: 55%">
             <h2><i class="fa-regular fa-circle-dot"></i> About me</h2>
-            I'm a hobbyist who likes to learn about software development and reverse engineering.
+            I'm a software developer and game development student who loves reverse engineering games to understand their security. I leverage my insights to enhance my skills in gameplay security development. I consider myself an open-minded and proactive person, who enjoys teamwork and interacting with people. I'm always looking for new challenges and opportunities to grow as a professional.
         </section>
 
     </div>
@@ -153,8 +151,8 @@
     window.onload = function ()
     {
         const name = document.getElementsByClassName("info")[0]
-        const text = "Advanced Game Development Student"
-        const keywords = ["Advanced Game Development Student"].map(e=>  [text.search(e),text.search(e)+e.length])
+        const text = "Software Developer"
+        const keywords = ["Software Developer"].map(e=>  [text.search(e),text.search(e)+e.length])
         let delay = 0
         for (let i=0;i<text.length;i++) {
             setTimeout(()=>{
