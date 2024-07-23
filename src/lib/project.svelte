@@ -81,19 +81,19 @@
             left: 1px;
         }
 
-        .hover .insides {
+        .coe:hover .insides {
             top: -50%;
         }
 
-        .hover img {
+        .coe:hover img {
             visibility: hidden;
         }
 
-        .hover .indepth {
+        .coe:hover .indepth {
             left: 15px;
         }
 
-        .hover .languages {
+        .coe:hover .languages {
             margin: 10px;
         }
 

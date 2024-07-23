@@ -26,6 +26,9 @@
                 <div class="skill cs"><img class="language" src="https://cdn.worldvectorlogo.com/logos/c--4.svg">
                     <div class="progress cs"></div>
                 </div>
+                <div class="skill cpp"><img class="language" src="https://img.icons8.com/?size=100&id=39848&format=png&color=FFFFFF">
+                    <div class="progress unity"></div>
+                </div>
                 <div class="skill python"><img class="language" src="https://cdn.worldvectorlogo.com/logos/python-5.svg">
                     <div class="progress python"></div>
                 </div>
@@ -102,8 +105,12 @@
         background: linear-gradient(to right, #a179dc 65%, #151b24 50%);
     }
 
+    .progress.unity {
+        background: linear-gradient(to right, #ffffff 45%, #151b24 20%);
+    }
+
     .progress.python {
-        background: linear-gradient(to right, #376f9e 20%, #151b24 20%);
+        background: linear-gradient(to right, #376f9e 30%, #151b24 20%);
     }
 
     .progress.js {
